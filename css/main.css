@@ -1,0 +1,262 @@
+body {
+    color: rgba(35, 41, 56, 0.6);
+    font: 400 14px/130% "Josefin Sans", sans-serif;
+    -webkit-font-smoothing: antialiased; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 24px;
+    font-weight: 400;
+    color: #232938; 
+}
+
+h1,
+.h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -3px; }
+  @media screen and (max-width: 767px) {
+    h1,
+    .h1 {
+      font-size: 36px; }
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 600;
+  letter-spacing: -3px; }
+  @media screen and (max-width: 767px) {
+    h2,
+    .h2 {
+      font-size: 24px; } 
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600; }
+  @media screen and (max-width: 767px) {
+    h3,
+    .h3 {
+      font-size: 20px; } 
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+  line-height: 140%; 
+}
+
+h5,
+.h5 {
+  font-size: 14px;
+  line-height: 130%; 
+}
+
+img {
+    outline: none;
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto; }
+    @media screen and (max-width: 1023px) {
+      .container {
+        max-width: calc(100% - 48px); } }
+    @media screen and (max-width: 419px) {
+      .container {
+        max-width: calc(100% - 32px); } }
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: calc(100% + 32px);
+    margin: 0 -16px; }
+    .row.row_justify-content-between {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+    @media screen and (max-width: 991px) {
+        .row {
+        width: calc(100% + 24px);
+        margin: 0 -12px; } 
+}
+
+.col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    @media screen and (max-width: 991px) {
+      .col {
+        padding: 0 12px; } }
+    .col.col_1 {
+      width: 8.3333%; }
+    .col.col_2 {
+      width: 16.666%; }
+    .col.col_3 {
+      width: 25%; }
+    .col.col_4 {
+      width: 33.3%; }
+    .col.col_5 {
+      width: 41.666667%; }
+    .col.col_6 {
+      width: 50%; }
+    .col.col_7 {
+      width: 58.333333%; }
+    .col.col_8 {
+      width: 66.666667%; }
+    .col.col_9 {
+      width: 75%; }
+    .col.col_10 {
+      width: 83.333333%; }
+    .col.col_11 {
+      width: 91.666667%; }
+    .col.col_12 {
+      width: 100%; }
+    @media (max-width: 1400px) {
+      .col.col_big-desktop-2 {
+        width: 16.66%; }
+      .col.col_big-desktop-3 {
+        width: 25%; }
+      .col.col_big-desktop-4 {
+        width: 33.3%; }
+      .col.col_big-desktop-5 {
+        width: 41.666667%; }
+      .col.col_big-desktop-6 {
+        width: 50%; }
+      .col.col_big-desktop-7 {
+        width: 58.333333%; }
+      .col.col_big-desktop-8 {
+        width: 66.666667%; }
+      .col.col_big-desktop-9 {
+        width: 75%; }
+      .col.col_big-desktop-10 {
+        width: 83.333333%; }
+      .col.col_big-desktop-11 {
+        width: 91.666667%; }
+      .col.col_big-desktop-12 {
+        width: 100%; } }
+    @media (max-width: 1200px) {
+      .col.col_middle-desktop-2 {
+        width: 16.66%; }
+      .col.col_middle-desktop-3 {
+        width: 25%; }
+      .col.col_middle-desktop-4 {
+        width: 33.3%; }
+      .col.col_middle-desktop-5 {
+        width: 41.666667%; }
+      .col.col_middle-desktop-6 {
+        width: 50%; }
+      .col.col_middle-desktop-7 {
+        width: 58.333333%; }
+      .col.col_middle-desktop-8 {
+        width: 66.666667%; }
+      .col.col_middle-desktop-9 {
+        width: 75%; }
+      .col.col_middle-desktop-10 {
+        width: 83.333333%; }
+      .col.col_middle-desktop-11 {
+        width: 91.666667%; }
+      .col.col_middle-desktop-12 {
+        width: 100%; } }
+    @media screen and (max-width: 1023px) {
+      .col.col_desktop-2 {
+        width: 16.66%; }
+      .col.col_desktop-3 {
+        width: 25%; }
+      .col.col_desktop-4 {
+        width: 33.3%; }
+      .col.col_desktop-5 {
+        width: 41.666667%; }
+      .col.col_desktop-6 {
+        width: 50%; }
+      .col.col_desktop-7 {
+        width: 58.333333%; }
+      .col.col_desktop-8 {
+        width: 66.666667%; }
+      .col.col_desktop-9 {
+        width: 75%; }
+      .col.col_desktop-10 {
+        width: 83.333333%; }
+      .col.col_desktop-11 {
+        width: 91.666667%; }
+      .col.col_desktop-12 {
+        width: 100%; } }
+    @media screen and (max-width: 991px) {
+      .col.col_tab-3 {
+        width: 25%; }
+      .col.col_tab-4 {
+        width: 33.3%; }
+      .col.col_tab-5 {
+        width: 41.666667%; }
+      .col.col_tab-6 {
+        width: 50%; }
+      .col.col_tab-7 {
+        width: 58.333333%; }
+      .col.col_tab-8 {
+        width: 66.666667%; }
+      .col.col_tab-9 {
+        width: 75%; }
+      .col.col_tab-10 {
+        width: 83.333333%; }
+      .col.col_tab-11 {
+        width: 91.666667%; }
+      .col.col_tab-12 {
+        width: 100%; } }
+    @media screen and (max-width: 767px) {
+      .col.col_mob-2 {
+        width: 16.66%; }
+      .col.col_mob-3 {
+        width: 25%; }
+      .col.col_mob-4 {
+        width: 33.3%; }
+      .col.col_mob-6 {
+        width: 50%; }
+      .col.col_mob-8 {
+        width: 66.666667%; }
+      .col.col_mob-12 {
+        width: 100%; } }
+    @media screen and (max-width: 579px) {
+      .col.col_mob-p-12 {
+        width: 100%; } }
+
+/* Ajuste este valor para aumentar/diminuir o tamanho */
+#desktop-clients-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#desktop-clients-1 .logo-container {
+    display: flex;
+    gap: 20px;
+}
+/* Mantém a proporção da imagem */
+#desktop-clients-1 img {
+    max-width: 100px; 
+    max-height: 50px;
+    object-fit: contain; 
+}
+
