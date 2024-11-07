@@ -5,157 +5,221 @@ body {
 
 .navbar {
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-dark-img {
-    width: 100%; /* Ajusta a largura para 100% do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Exibe a imagem como um bloco */
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .navbar-light {
-    background: #f8f9fa; /* Cor de fundo clara */
-    display: flex; /* Flexbox para organizar logo e menu */
-    justify-content: space-between; /* Espaço entre logo e menu */
-    align-items: center; /* Centraliza verticalmente */
-    padding: 10px; /* Padding ajustado */
+    background: #f8f9fa;
 }
 
 .navbar-brand {
-    margin-right: auto; /* Empurra o menu para a direita */
+    margin-right: auto;
 }
 
 .navbar-brand h3 {
     font-size: 24px;
     font-weight: 700;
-    color: #252B42; /* Cor do texto da logo */
-    margin: 0; /* Remove margem padrão */
+    color: #252B42;
+    margin: 0;
 }
 
 .navbar-nav {
-    display: flex; /* Flexbox para itens do menu */
-    list-style: none; /* Remove o marcador */
+    display: flex;
+    list-style: none;
     padding: 0;
     margin: 0;
-    gap: 15px; /* Espaçamento entre os itens do menu */
-    opacity: 0; /* Opacidade 0 como especificado */
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .navbar-nav li {
-    width: 361px; /* Largura especificada */
-    height: 25px; /* Altura especificada */
-    color: #252B42; /* Cor do texto do menu */
+    color: #252B42;
 }
 
 .navbar-icons {
-    display: flex; /* Flexbox para os ícones */
+    display: flex;
     align-items: center;
-    gap: 15px; /* Espaçamento entre ícones */
+    gap: 15px;
 }
 
 .navbar-icons li {
-    color: #252B42; /* Cor dos ícones */
+    color: #252B42;
+}
+
+.navbar-icons li a {
+    display: block;
+    padding: 10px;
+    background: #23A6F0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-icons li a:hover {
+    background: #1a7bbf;
+}
+
+.navbar-style-8 {
+    width: 1439px;
+    height: 136px;
+    background: #FFFFFF;
 }
 
 .container-fluid {
-    display: flex; /* Flexbox para o conteúdo */
-    justify-content: space-between; /* Espaçamento entre imagem e conteúdo */
-    align-items: center;
-    padding: 20px; /* Padding ajustado */
+    width: 1292px;
+    height: 622px;
+    border-radius: 20px 0 0 0;
     background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
-}
-
-.generic-image img {
-    max-width: 100%; /* Imagem responsiva */
-    height: auto; /* Mantém a proporção */
-}
-
-.content {
-    flex: 1; /* Ocupa espaço disponível */
-    padding: 20px;
-}
-
-.cta {
-    background: #007bff;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#desktop-clients-1 {
-    width: 100%; /* Alterado para 100% */
-    display: flex; 
-    justify-content: center; 
-    flex-wrap: wrap; /* Permite que as logos se ajustem */
-    padding: 20px 0;
-}
-
-#container {
-    display: flex;
-    justify-content: space-between; /* Espaçamento entre logos */
-    flex-wrap: wrap; /* Permite que as logos se ajustem */
-    padding: 0 20px; /* Padding nas laterais */
-}
-
-.col-md-2 {
-    flex: 1 0 150px; /* Flexível, com largura mínima */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px; /* Margem para espaçamento */
-}
-
-.container-fluid {
-    padding: 0 0 3px;
-    border-radius: 20px 0 0 0;
-    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
 }
 
 .row {
+    width: 1292px;
+    height: 619px;
     display: flex;
 }
 
 .col-md-6 {
-    width: 50%; /* Cada coluna ocupa 50% do espaço disponível */
+    width: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.content {
-    padding: 20px;
+.content h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7CC7;
+    margin: 0;
+}
+
+#headline {
+    font-size: 58px;
+    font-weight: 700;
+    color: #252B42;
+    margin: 20px 0 10px;
+}
+
+.content h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin: 10px 0 20px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+button.btn.primary-color.btn-lg {
+    width: 221px;
+    height: 62px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn.primary-color.btn-lg h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
 }
 
 .generic-image {
-    width: 696px; /* Largura da imagem */
-    height: 619px; /* Altura da imagem */
-    padding: 0 3.5px; /* Espaçamento interno */
-    opacity: 1; /* Ajuste de opacidade */
+    width: 696px;
+    height: 619px;
 }
+
+.desktop-clients-1 {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.client-logo {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#desktop-clients-1 .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#desktop-clients-1 .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaçamento entre as logos */
+}
+
+#desktop-clients-1 .col-md-2 {
+    width: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands {
+    width: 103px;
+    height: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fa-brands-1 { background-image: url('img/fa-brands-1.png'); }
+.fa-brands-2 { background-image: url('img/fa-brands-2.png'); }
+.fa-brands-3 { background-image: url('img/fa-brands-3.png'); }
+.fa-brands-4 { background-image: url('img/fa-brands-4.png'); }
+.fa-brands-5 { background-image: url('img/fa-brands-5.png'); }
+.fa-brands-6 { background-image: url('img/fa-brands-6.png'); }
 
 #hero-cover-1 {
     display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    align-items: center; /* Centraliza a imagem verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
     .navbar-nav {
-        flex-direction: column; /* Alinha os itens do menu verticalmente */
-        padding: 0;
+        flex-direction: column;
     }
 
     .container-fluid {
-        flex-direction: column; /* Alinha imagem e conteúdo verticalmente */
-        text-align: center; /* Centraliza o texto */
+        flex-direction: column;
+        text-align: center;
     }
 
     .content {
-        width: auto; /* Ajuste para conteúdo */
-        padding: 10px; /* Ajuste de padding */
+        width: auto;
+        padding: 10px;
     }
 
     .generic-image img {
-        max-width: 100%; /* Imagem responsiva */
-        height: auto; /* Mantém a proporção */
+        max-width: 100%;
+        height: auto;
     }
 }
