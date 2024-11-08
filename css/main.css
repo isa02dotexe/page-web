@@ -1395,16 +1395,6 @@ popup-init {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top left; }
-  .round-border-1:before {
-    bottom: -16px;
-    background-image: url("../images/content/title-1.png"); }
-  .round-border-2:before {
-    left: -8px;
-    right: -8px;
-    top: -4px;
-    bottom: -4px;
-    background-image: url("../images/content/title-2.png"); }
-
 
 
 @media screen and (max-width: 767px) {
